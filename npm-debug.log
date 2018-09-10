@@ -1,10 +1,10 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'sass' ]
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'deploy' ]
 2 info using npm@1.3.10
 3 info using node@v0.10.25
-4 verbose run-script [ 'presass', 'sass', 'postsass' ]
-5 info presass myPortfolio@1.0.0
-6 info sass myPortfolio@1.0.0
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info predeploy myPortfolio@1.0.0
+6 info deploy myPortfolio@1.0.0
 7 verbose unsafe-perm in lifecycle true
 8 error Error: spawn ENOMEM
 8 error     at errnoException (child_process.js:988:11)
@@ -22,7 +22,7 @@
 9 error or email it to:
 9 error     <npm-@googlegroups.com>
 10 error System Linux 3.4.0+
-11 error command "/usr/bin/nodejs" "/usr/bin/npm" "run" "sass"
+11 error command "/usr/bin/nodejs" "/usr/bin/npm" "run" "deploy"
 12 error cwd /mnt/c/Users/Hinatsu/OneDrive/projects/myPortfolio
 13 error node -v v0.10.25
 14 error npm -v 1.3.10
